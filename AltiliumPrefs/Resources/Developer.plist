@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Links</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>icon</key>
+			<string>Service-GitHub.png</string>
+			<key>action</key>
+			<string>openGitHub</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Twitter</string>
+			<key>icon</key>
+			<string>Service-Twitter.png</string>
+			<key>action</key>
+			<string>openTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Website</string>
+			<key>icon</key>
+			<string>Service-Website.png</string>
+			<key>action</key>
+			<string>openWebsite</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reddit</string>
+			<key>icon</key>
+			<string>Service-Reddit.png</string>
+			<key>action</key>
+			<string>openReddit</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Discord Server</string>
+			<key>icon</key>
+			<string>Service-Discord.png</string>
+			<key>action</key>
+			<string>openDiscord</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Consider Donating</string>
+			<key>icon</key>
+			<string>Service-PayPal.png</string>
+			<key>action</key>
+			<string>openPayPal</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Special Thanks</string>
+			<key>action</key>
+			<string>specialThanks</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Developer</string>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+---
+name: Altilium
+icmd: sbreload
+
+all:
+    targetvers: 13.0
+    archs:
+        - arm64
+        - arm64e
+
+Altilium:
+    type: tweak
+    logos_files:
+        - Altilium.xm
+        
+AltiliumPrefs:
+    dir: AltiliumPrefs
+    type: prefs
+    objc_files:
+        - SLBRootListController.m
+        - SLBDevPageController.m
