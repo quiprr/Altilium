@@ -7,6 +7,10 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable Tweak</string>
+			<key>footerText</key>
+			<string>Altilium may require you to toggle on and off after an update or reboot.</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -24,7 +28,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Settings</string>
+			<string>Alert Preferences</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -42,6 +46,32 @@
 		</dict>
 		<dict>
 			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>battery remaining.</string>
+			<key>defaults</key>
+			<string>dev.quiprr.altilium</string>
+			<key>key</key>
+			<string>alertText</string>
+			<key>label</key>
+			<string>Alert Text:</string>
+			<key>placeholder</key>
+			<string>battery remaining.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>dev.quiprr.altilium</string>
+			<key>key</key>
+			<string>shouldPutPercentageAtEnd</string>
+			<key>label</key>
+			<string>Show Battery % At End</string>
+		</dict>
+		<dict>
+			<key>cell</key>
 			<string>PSGroupCell</string>
 		</dict>
 		<dict>
@@ -55,6 +85,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© quiprr/ItHertzSoGood 2020. All rights reserved.</string>
 		</dict>
 		<dict>
 			<key>cell</key>

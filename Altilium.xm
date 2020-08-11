@@ -32,9 +32,11 @@ NSDictionary *rootDict;
 
     NSNumber *notiPercent = [rootDict objectForKey:@"notiPercent"];
     double putIntoIfStatement = [notiPercent doubleValue];
-    NSString *message = [NSString stringWithFormat:@"%d%% battery remaining.", btryLvl];
-
-    if (btryLvl == putIntoIfStatement) {
+    NSString *alertText = [rootDict objectForKey:@"alertText"];
+    BOOL shouldPutPercentageAtEnd = [[rootDict objectForKey:@"shouldPutPercentageAtEnd"] boolValue];
+    NSString *message = (shouldPutPercentageAtEnd) ? [NSString stringWithFormat:@"%@ %d%%.", alertText, btryLvl] : [NSString stringWithFormat:@"%d%% %@", btryLvl, alertText];
+ 
+    if (btryLvl == putIntoIfStatement) {        
         UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Low Battery"
                             message:message
                             preferredStyle:UIAlertControllerStyleAlert];
