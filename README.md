@@ -2,9 +2,9 @@
 Get more low battery alerts!  
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 ### Current version:  
-v1.0.1  
+v1.0.2  
 ### Where to download
-Repo: https://repo.ametrine.dev/  
+Repo: https://repo.quiprr.dev/  
 .deb: [GitHub Releases](https://github.com/ItHertzSoGood/Altilium/releases/)
 ### Build this yourself
 #### DragonBuild:  

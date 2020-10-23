@@ -9,8 +9,6 @@
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string>Enable Tweak</string>
-			<key>footerText</key>
-			<string>Altilium may require you to toggle on and off after an update or reboot.</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -66,7 +64,7 @@
 			<key>defaults</key>
 			<string>dev.quiprr.altilium</string>
 			<key>key</key>
-			<string>shouldPutPercentageAtEnd</string>
+			<string>putPercentAtEnd</string>
 			<key>label</key>
 			<string>Show Battery % At End</string>
 		</dict>
