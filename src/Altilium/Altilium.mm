@@ -35,7 +35,6 @@ id readPreferenceValue(id key, id fallback)
     float batteryLevel = [UIDevice currentDevice].batteryLevel * 100;
     NSInteger btryLvl = batteryLevel;
 
-    // NSNumber *notiPercent = [[NSDictionary dictionaryWithContentsOfFile:@"/var/mobile/Library/Preferences/dev.quiprr.Altilium.plist"] objectForKey:@"notiPercent"];
     id notiPercent = readPreferenceValue(@"notiPercent", @"5");
     double putIntoIfStatement = [notiPercent doubleValue];
 

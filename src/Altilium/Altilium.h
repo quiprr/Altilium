@@ -6,7 +6,3 @@
 #else 
 #define NSLog(...) (void)0
 #endif
-
-@interface SBIconController : UIViewController
-- (void)batteryLevelChanged;
-@end

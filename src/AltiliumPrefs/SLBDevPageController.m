@@ -31,7 +31,7 @@
 
 - (void)openGitHub
 {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/ItHertzSoGood/Altilium"] options:@{} completionHandler:nil];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/quiprr/Altilium"] options:@{} completionHandler:nil];
 }
 
 - (void)openTwitter
@@ -41,7 +41,7 @@
 
 - (void)openWebsite
 {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://ametrine.dev/"] options:@{} completionHandler:nil];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://quiprr.dev/"] options:@{} completionHandler:nil];
 }
 
 - (void)openReddit
